@@ -43,4 +43,6 @@ if ideal_bedtime < 0:
 # Provide a suggestion
 print(f"Based on your age, you should be getting around {recommended_sleep} hours of sleep.")
 print(f"To achieve that, you should aim to go to sleep at {ideal_bedtime:00.0f} o clock.")
+print("No data given will be stored")
+
 
